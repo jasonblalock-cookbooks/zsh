@@ -1,4 +1,4 @@
-property :username, String
+property :username, String, name_property: true
 
 action :set do
   user username do
